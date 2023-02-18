@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-02T08:57:09 IST" name="Suite" finished-at="2023-02-02T08:58:10 IST" duration-ms="60494">
+    <groups>
+    </groups>
+    <test started-at="2023-02-02T08:57:09 IST" name="HomePageTest" finished-at="2023-02-02T08:57:32 IST" duration-ms="22818">
+      <class name="dd.Insure.Tests.HomePageTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:dd.Insure.Tests.HomePageTest@45d84a20]" started-at="2023-02-02T08:57:09 IST" name="launchApplication" finished-at="2023-02-02T08:57:23 IST" duration-ms="13931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="urlNavigation()[pri:1, instance:dd.Insure.Tests.HomePageTest@45d84a20]" started-at="2023-02-02T08:57:24 IST" name="urlNavigation" finished-at="2023-02-02T08:57:24 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlNavigation -->
+        <test-method signature="Logo()[pri:2, instance:dd.Insure.Tests.HomePageTest@45d84a20]" started-at="2023-02-02T08:57:24 IST" name="Logo" finished-at="2023-02-02T08:57:24 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logo -->
+        <test-method signature="WelcomeMessage()[pri:3, instance:dd.Insure.Tests.HomePageTest@45d84a20]" started-at="2023-02-02T08:57:24 IST" name="WelcomeMessage" finished-at="2023-02-02T08:57:30 IST" duration-ms="6131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WelcomeMessage -->
+        <test-method signature="NeedHelpLink()[pri:4, instance:dd.Insure.Tests.HomePageTest@45d84a20]" started-at="2023-02-02T08:57:30 IST" name="NeedHelpLink" finished-at="2023-02-02T08:57:31 IST" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NeedHelpLink -->
+        <test-method signature="NeedHelpDialog()[pri:5, instance:dd.Insure.Tests.HomePageTest@45d84a20]" started-at="2023-02-02T08:57:31 IST" name="NeedHelpDialog" finished-at="2023-02-02T08:57:31 IST" depends-on-methods="dd.Insure.Tests.HomePageTest.NeedHelpLink" duration-ms="405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NeedHelpDialog -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dd.Insure.Tests.HomePageTest@45d84a20]" started-at="2023-02-02T08:57:31 IST" name="tearDown" finished-at="2023-02-02T08:57:32 IST" duration-ms="1283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dd.Insure.Tests.HomePageTest -->
+    </test> <!-- HomePageTest -->
+    <test started-at="2023-02-02T08:57:35 IST" name="NextButtonTest" finished-at="2023-02-02T08:58:10 IST" duration-ms="35339">
+      <class name="dd.Insure.Tests.NextButtonTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:dd.Insure.Tests.NextButtonTest@7139992f]" started-at="2023-02-02T08:57:35 IST" name="launchApplication" finished-at="2023-02-02T08:57:42 IST" duration-ms="7731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="GetStartedButtonCheck()[pri:6, instance:dd.Insure.Tests.NextButtonTest@7139992f]" started-at="2023-02-02T08:57:42 IST" name="GetStartedButtonCheck" finished-at="2023-02-02T08:57:53 IST" duration-ms="10781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetStartedButtonCheck -->
+        <test-method signature="ApplicantTypePage()[pri:7, instance:dd.Insure.Tests.NextButtonTest@7139992f]" started-at="2023-02-02T08:57:53 IST" name="ApplicantTypePage" finished-at="2023-02-02T08:57:57 IST" depends-on-methods="dd.Insure.Tests.NextButtonTest.GetStartedButtonCheck" duration-ms="3899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplicantTypePage -->
+        <test-method signature="ProductSelect()[pri:8, instance:dd.Insure.Tests.NextButtonTest@7139992f]" started-at="2023-02-02T08:57:57 IST" name="ProductSelect" finished-at="2023-02-02T08:58:01 IST" duration-ms="4276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductSelect -->
+        <test-method signature="NameInfoValidation(java.lang.String,java.lang.String)[pri:9, instance:dd.Insure.Tests.NextButtonTest@7139992f]" started-at="2023-02-02T08:58:01 IST" name="NameInfoValidation" data-provider="NameDataProvider" finished-at="2023-02-02T08:58:04 IST" duration-ms="3130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Drashty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dadhaniya]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NameInfoValidation -->
+        <test-method signature="NameInfoValidation(java.lang.String,java.lang.String)[pri:9, instance:dd.Insure.Tests.NextButtonTest@7139992f]" started-at="2023-02-02T08:58:04 IST" name="NameInfoValidation" data-provider="NameDataProvider" finished-at="2023-02-02T08:58:05 IST" duration-ms="124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Prisha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vachhani]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NameInfoValidation -->
+        <test-method signature="EmailIdValidation(java.lang.String)[pri:10, instance:dd.Insure.Tests.NextButtonTest@7139992f]" started-at="2023-02-02T08:58:05 IST" name="EmailIdValidation" data-provider="EmailDataProvider" finished-at="2023-02-02T08:58:08 IST" duration-ms="3181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[drashty@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmailIdValidation -->
+        <test-method signature="EmailIdValidation(java.lang.String)[pri:10, instance:dd.Insure.Tests.NextButtonTest@7139992f]" started-at="2023-02-02T08:58:08 IST" name="EmailIdValidation" data-provider="EmailDataProvider" finished-at="2023-02-02T08:58:08 IST" duration-ms="200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prisha@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmailIdValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dd.Insure.Tests.NextButtonTest@7139992f]" started-at="2023-02-02T08:58:08 IST" name="tearDown" finished-at="2023-02-02T08:58:10 IST" duration-ms="1923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dd.Insure.Tests.NextButtonTest -->
+    </test> <!-- NextButtonTest -->
+  </suite> <!-- Suite -->
+</testng-results>
